@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">  <!-- tela responsiva -->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--linka o css externo via web -->
+	<!-- <link rel="stylesheet" type="text/css" href="w3.css"> -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato"> <!-- linka as fontes texto -->
+    <title>Banda catedral</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<head>
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+<body>
+	<!-- Navegação horizontal -->
+<div class="w3-top w3-bar w3-black">
+	<a href="#home" class="w3-bar-item w3-button">Início</a>
+	<a href="#about" class="w3-bar-item w3-button">Sobre</a>
+	<a href="#members" class="w3-bar-item w3-button">Membros</a>
+	<a href="#contact" class="w3-bar-item w3-button">Contato</a>
+</div>
+
+<!-- Início do conteúdo -->
+<div id="home" class="w3-content">
+	<!-- 1º imagem --> <!-- 2º slides -->
+	<img class="slides" src="imagens/banda-catedral-11.jpg" style="width:100%">
+	<img class="slides" src="imagens/banda_catedral.jpg" style="width:100%">
+	<img class="slides" src="imagens/catedral.jpg" style="width:100%">
+	<script>
+		w3.slideshow(".slides", 1500);
+	</script>
+
+	<!-- sobre a banda -->
+	<div id="about" class="w3-container w3-padding-32">
+		<h1 class="w3-center">A Banda</h1>
+		<p>
+            A banda foi formada inicialmente pelos irmãos Joaquim Cézar Motta(Kim) (cantor) (voz, guitarra base e violão), José Cézar Motta(Cezar) (guitarra solo),falecido em 2003 e Júlio Cézar Motta (baixo elétrico), junto com mais dois amigos, Eliaquim Guilherme Morgado (bateria) e Glauco Mozart (tecladista da banda até o terceiro LP, Catedral III). Tiveram sua origem na 1ª Igreja Presbiteriana de Nilópolis, Nilópolis, Rio de Janeiro, tendo sua temática voltada totalmente para o mercado gospel.
+        </p>
+	</div>
+
+	<!-- Membros -->
+	<div id="memnbers" class="w3-container w3-padding-32">
+		<h2 class="w3-center">Membros da Banda</h2>
+		<div class="w3-row w3-center">
+
+			<div class="w3-third">
+				<img src="imagens/th.jpg" alt="nome1" style="width:60%">
+                <p>Joaquim Cezar Motta (Rio de Janeiro, 3 de novembro de 1967), mais conhecido como Kim, é o vocalista da banda Catedral. Além de cantor, é também produtor musical, arranjador, letrista, psicólogo e poeta brasileiro, com um livro lançado em 2006 intitulado Sobre Muitas Coisas.</p>
+			</div>
+
+			<div class="w3-third">
+				<img src="imagens/Julio-Cezar-5.jpg" alt="nome2" style="width:60%">
+                <p>
+                    Júlio Cezar nasceu em 10 de maio de 1972, em Nilópolis cidade do Rio de Janeiro. Começou seus estudos musicais com 7 para 8 anos em um conservatório na sua cidade. Estudou  piano, abandonou após alguns anos e sozinho passou pelo violão e bateria, só depois disso aos 14 anos se encontrou com o instrumento que iria mudar sua vida e marcar uma época na música Gospel do Brasil...
+                </p>
+			</div>
+
+			<div class="w3-third">
+				<img src="imagens/guilherme_04.jpg" alt="nome3" style="width:60%">
+                <p>
+                    Eliaquim Guilherme Morgado, nascido no Rio de Janeiro, como os outros integrantes da banda começou sua carreira musical na igreja e de maneira autodidata, recebeu o convite dos irmãos Motta para compor uma banda para tocar em escolas e festivais, banda essa que hoje é a melhor banda de POP/ROCK do Brasil.
+                </p>
+			</div>
+		</div>
+	</div>
+	<!-- Contato -->
+	<div id="contact" class="w3-container w3-center w3-padding-32">
+		<h2 class="w3-wide">CONTATO</h2>
+		São Paulo, SP<br>
+		Fone: +55 11 3535353<br>
+		Email: mail@mail.com<br>
+		<p class="w3-opacity w3-center"><i>Fã? Deixe sua mensagem!</i></p>
+
+		<!-- formulário pra mensagem -->
+		<form action="#" target="_blank">
+			<input class="w3-input" type="text" placeholder="Nome" required name="Name">
+			<input class="w3-input" type="text" placeholder="Email" required name="Email">
+			<input class="w3-input" type="text" placeholder="Mensagem" required name="Message"><br>
+			<button class="w3-button w3-black" type="submit">Enviar</button>
+			<!--
+			<textarea class="w3-input" type="text" placeholder="Mensagem" required name="Message"></textarea> -->
+		</form>
+		<br>
+		<img src="imagens/54.jpg" class="w3-image" style="width:100">
+		<p class="w3-center w3-padding">Produzido por Thiago Santos</p>
+	</div>
+
+	<!-- Fim do conteúdo -->
+</div>
+
+</body>
+</html>
